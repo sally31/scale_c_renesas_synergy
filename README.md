@@ -5,7 +5,7 @@
 This project implements a digital scale using the Renesas Synergy platform with a load cell and the HX711 ADC module.
 The measured weight data is transmitted over UART serial communication, which can be monitored on a PC using Tera Term.
 This project is a practical reference for integrating sensors and human-machine interfaces with Renesas microcontrollers.
-
+An **Adafruit 24LC32 I2C EEPROM (32kbit / 4KB)** is included to store calibration data, tare/offset values, and user settings so they are retained across power cycles.
 
 ---
 
@@ -43,6 +43,16 @@ For data logging and debugging, the project uses a USB to TTL serial adapter:
 
 ---
 
+## EEPROM (Adafruit 24LC32 I2C)
+
+This project uses the **Adafruit 24LC32 I2C EEPROM breakout** (32kbit = 4KB).  
+It is a small non-volatile memory chip that stores data permanently using the I²C interface.
+
+- Capacity: **32kbit (4KB)**
+- Interface: **I²C (address 0x50–0x57)**
+- Voltage: **2.5V – 5.5V**
+
+---
 ## How to Use
 
 1. Connect the load cell and HX711 to the MCU
