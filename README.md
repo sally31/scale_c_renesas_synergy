@@ -1,3 +1,10 @@
+
+<img width="707" height="598" alt="screenshot 2025-10-07 162114" src="https://github.com/user-attachments/assets/a441b795-f72d-4563-ba61-77b1b2109a6c" />
+
+![IMG_2819](https://github.com/user-attachments/assets/f45dfd88-631c-4bb2-9020-1739fe4b1769)
+![IMG_2818](https://github.com/user-attachments/assets/e90b2215-6fda-4452-a082-e59af2779a2e)
+![IMG_2820](https://github.com/user-attachments/assets/f55058b9-d4b9-47f0-ae0e-e10b9d106f0c)
+
 # Renesas Synergy Digital Scale Project
 
 ## Overview
